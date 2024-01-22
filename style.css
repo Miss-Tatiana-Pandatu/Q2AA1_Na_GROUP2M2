@@ -1,0 +1,91 @@
+body{background-color: rgba(10,12,27,255);}
+
+.box{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height: 55vh;
+    background-color: rgba(28,25,56,255);
+    margin-left: 179px;
+    margin-top: 130px;
+    position: fixed;
+    border-radius: 10px;
+}
+
+h1{
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+h1 span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(173,94,222,255);
+}
+
+.text{
+    margin-left: 55px;
+    margin: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+p {
+    color: white;
+    opacity: 0.7;
+}
+
+.information {
+    font-size: 12px;
+    display: flex;
+}
+
+.information1 p .transparent {
+    font-size: 24px;
+}
+
+.information2 p .transparent {
+    font-size: 24px;
+}
+
+.information3 p .transparent {
+    font-size: 25px;
+}
+
+.information2 {
+    margin-left: 3vw;
+}
+
+.information3 {
+    margin-left: 3vw;
+}
+
+.transparent{
+    font-size: 12px;
+    opacity: 0.35;
+}
+
+.image{
+    position: absolute;
+    left: 50%;
+    height: 55vh;
+    width: 40vw;
+
+    background-repeat: none;
+
+    background-image: url(media/image.jpg);
+}
+
+.background{
+    position: absolute;
+    left: 50%;
+    height: 55vh;
+    width: 40vw;
+    z-index: 99;
+    opacity: 0.6;
+
+    background-color: rgba(173,94,222,255);
+    background-repeat: none;
+}
+
+
